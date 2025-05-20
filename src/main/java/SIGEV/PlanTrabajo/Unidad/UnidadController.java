@@ -14,7 +14,7 @@ import java.util.List;
 import java.net.URI;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://plan-trabajo-itst.vercel.app")
+@CrossOrigin(origins = {"https://plan-trabajo-itst.vercel.app", "*"})
 @RestController
 @RequestMapping("/unidad")
 public class UnidadController {
