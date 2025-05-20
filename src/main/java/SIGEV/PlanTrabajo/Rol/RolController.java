@@ -1,6 +1,5 @@
 package SIGEV.PlanTrabajo.Rol;
 
-import SIGEV.PlanTrabajo.Unidad.Unidad;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -57,17 +56,4 @@ public class RolController {
         }
         return ResponseEntity.notFound().build();
     }
-
-    /*
-    //Obtener usuarios por rol
-    @GetMapping("/unidades/{idRol}")
-    public ResponseEntity<Iterable<Unidad>>RolUsuario(@PathVariable Long idRol) {
-        Optional<Rol> rolOptional = rolRepository.findById(idRol);
-        if (rolOptional.isPresent()) {
-            return ResponseEntity.ok(rolOptional.get().getUnidades());
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-     */
 }
