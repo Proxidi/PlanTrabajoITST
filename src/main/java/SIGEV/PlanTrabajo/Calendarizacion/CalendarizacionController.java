@@ -14,7 +14,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://plan-trabajo-itst.vercel.app")
 @RestController
 @RequestMapping("/calendarizacion")
 public class CalendarizacionController {

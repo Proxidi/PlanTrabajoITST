@@ -10,7 +10,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.net.URI;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://plan-trabajo-itst.vercel.app")
 @RestController
 @RequestMapping("/usuario")
 public class UsuarioController {

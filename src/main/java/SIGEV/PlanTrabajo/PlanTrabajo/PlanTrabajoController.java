@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
+@CrossOrigin(origins = "https://plan-trabajo-itst.vercel.app")
 @RestController
 @RequestMapping("/plan-trabajo")
-@CrossOrigin(origins = "http://localhost:5173")
 public class PlanTrabajoController {
 
     @Autowired
