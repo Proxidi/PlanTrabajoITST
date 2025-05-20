@@ -12,7 +12,7 @@ import java.net.URI;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = {"https://plan-trabajo-itst.vercel.app", "*"})
+@CrossOrigin(origins = {"https://plan-trabajo-itst-git-main-proxidis-projects.vercel.app", "*"})
 @RestController
 @RequestMapping("/programa")
 public class ProgramaController {

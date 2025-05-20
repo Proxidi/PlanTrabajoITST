@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@CrossOrigin(origins = {"https://plan-trabajo-itst.vercel.app", "*"})
+@CrossOrigin(origins = {"https://plan-trabajo-itst-git-main-proxidis-projects.vercel.app", "*"})
 @RestController
 @RequestMapping("/plan-trabajo")
 public class PlanTrabajoController {

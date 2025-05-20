@@ -8,7 +8,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import java.net.URI;
 import java.util.Optional;
 
-@CrossOrigin(origins = {"https://plan-trabajo-itst.vercel.app", "*"})
+@CrossOrigin(origins = {"https://plan-trabajo-itst-git-main-proxidis-projects.vercel.app", "*"})
 @RestController
 @RequestMapping("/mes")
 public class MesController {
